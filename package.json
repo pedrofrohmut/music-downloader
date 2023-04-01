@@ -7,9 +7,9 @@
       "start": "electron ."
   },
   "keywords": [],
-  "author": "Pedro Frohmut",
+  "author": "Pedro Frohmut (Didorgas)",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "electron": "^23.2.1"
   }
 }

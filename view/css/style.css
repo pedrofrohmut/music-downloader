@@ -22,6 +22,7 @@ input.txt-url {
     width: 550px;
     margin-right: 1rem;
     color: #888;
+    border-radius: 7px;
 }
 
 button[type="submit"] {
@@ -31,6 +32,7 @@ button[type="submit"] {
     font-size: 1.2rem;
     width: 100px;
     padding: 7px 0;
+    border-radius: 7px;
 }
 
 div.output {

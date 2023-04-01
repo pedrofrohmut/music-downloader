@@ -6,7 +6,7 @@ const createWindow = () => {
         height: 400,
     })
 
-    window.loadFile("index.html")
+    window.loadFile("view/index.html")
 }
 
 app.whenReady().then(() => {

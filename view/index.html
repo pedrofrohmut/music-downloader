@@ -11,16 +11,19 @@
         http-equiv="X-Content-Security-Policy"
         content="default-src 'self'; script-src 'self'"
         />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Music Downloader</title>
   </head>
   <body>
+    <h1 id="app-name">Music Downloader</h1>
+
     <form id="main-form">
       <div class="label">Youtube URL</div>
-      <input class="txt-url" type="text" name="">
+      <input id="txt-url" class="txt-url" type="text" name="">
       <button type="submit" id="btn-submit">Download</button>
     </form>
     <div class="output" id="output"></div>
-    <script scr="renderer.js"></script>
+
+    <script src="js/renderer.js"></script>
   </body>
 </html>
