@@ -1,0 +1,15 @@
+{
+  "name": "music-downloader",
+  "version": "1.0.0",
+  "description": "You tube music downloader destop app with electron (educational app)",
+  "main": "main.js",
+  "scripts": {
+      "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Pedro Frohmut",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^23.2.1"
+  }
+}

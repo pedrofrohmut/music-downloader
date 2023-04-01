@@ -1,0 +1,39 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    background-color: #282835;
+    padding: 2rem 1.4rem;
+    overflow: hidden;
+    border: 0;
+}
+
+div.label {
+    color: #a5a5a5;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+input.txt-url {
+    font-size: 1.2rem;
+    padding: 5px 7px;
+    border: 0;
+    width: 550px;
+    margin-right: 1rem;
+    color: #888;
+}
+
+button[type="submit"] {
+    border: 0;
+    background-color: #8a2be2;
+    color: #d5d5d5;
+    font-size: 1.2rem;
+    width: 100px;
+    padding: 7px 0;
+}
+
+div.output {
+    color: #fff;
+    font-size: 2rem;
+}

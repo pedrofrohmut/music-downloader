@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+        http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'"
+        />
+    <meta
+        http-equiv="X-Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'"
+        />
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Downloader</title>
+  </head>
+  <body>
+    <form id="main-form">
+      <div class="label">Youtube URL</div>
+      <input class="txt-url" type="text" name="">
+      <button type="submit" id="btn-submit">Download</button>
+    </form>
+    <div class="output" id="output"></div>
+    <script scr="renderer.js"></script>
+  </body>
+</html>
