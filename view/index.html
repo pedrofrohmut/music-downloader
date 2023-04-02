@@ -2,27 +2,28 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
-        http-equiv="Content-Security-Policy"
-        content="default-src 'self'; script-src 'self'"
-        />
-    <meta
-        http-equiv="X-Content-Security-Policy"
-        content="default-src 'self'; script-src 'self'"
-        />
     <link rel="stylesheet" href="css/style.css" />
     <title>Music Downloader</title>
   </head>
   <body>
     <h1 id="app-name">Music Downloader</h1>
 
+    <!-- URL Form -->
     <form id="main-form">
-      <div class="label">Youtube URL</div>
-      <input id="txt-url" class="txt-url" type="text" name="">
-      <button type="submit" id="btn-submit">Download</button>
+      <div class="url-label">Youtube URL</div>
+      <input id="url-input" class="txt-url" type="text" />
+      <button type="submit" class="btn" id="btn-submit">Download</button>
     </form>
+
+    <!-- Choose Directory -->
+    <!-- <div id="dir-output">No Directory Selected</div> -->
+    <!-- <button id="dir-button" class="btn">Choose Dir</button> -->
+
+    <!-- Output Box -->
     <div class="output" id="output"></div>
+
+    <!-- Info -->
+    <div id="info"></div>
 
     <script src="js/renderer.js"></script>
   </body>

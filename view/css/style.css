@@ -7,9 +7,19 @@ body {
     padding: 2rem 1.4rem;
     overflow: hidden;
     border: 0;
+    color: #d5d5d5;
 }
 
-div.label {
+#app-name {
+    font-size: 2.3rem;
+    margin-bottom: 1.6rem;
+}
+
+form#main-form {
+    margin-bottom: 1.5rem;
+}
+
+.url-label {
     color: #a5a5a5;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -25,14 +35,18 @@ input.txt-url {
     border-radius: 7px;
 }
 
-button[type="submit"] {
+.btn {
     border: 0;
     background-color: #8a2be2;
     color: #d5d5d5;
     font-size: 1.2rem;
-    width: 100px;
-    padding: 7px 0;
+    padding: 8px 12px;
     border-radius: 7px;
+}
+
+#dir-output {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
 
 div.output {
