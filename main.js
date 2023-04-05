@@ -19,6 +19,11 @@ const createWindow = () => {
         return "pong"
     })
 
+    ipcMain.handle("download", () => {
+        console.log("Download Submitted!")
+        return "Download Response"
+    })
+
     window.loadFile("view/index.html")
 }
 

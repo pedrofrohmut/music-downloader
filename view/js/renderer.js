@@ -20,9 +20,12 @@ const output = document.querySelector("#output")
 
 form.addEventListener("submit", e => {
     e.preventDefault()
-    output.innerText = urlInput.value
+    // output.innerText = urlInput.value
+    window.versions.download("FOO").then(response => {
+        output.innerText = response
+    })
 })
 
 dirButton.addEventListener("click", e => {
-    alert("Hello, Dib Button!")
+    alert("Hello, Dir Button!")
 })
